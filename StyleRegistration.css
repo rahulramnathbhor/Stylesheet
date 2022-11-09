@@ -1,0 +1,82 @@
+﻿*
+{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:sans-serif ;
+}
+
+body{
+    display:flex;
+    height:25vh;
+    justify-content:center;
+    align-items:center;
+    background:url(windowsimage.jpeg);
+    background-size:cover;
+}
+
+.container {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+}
+
+.container h1 {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px white;
+}
+
+    .container lable {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+
+    .container input {
+        font-size: 16px;
+        padding: 10px 5px;
+        width: 100%;
+        border: 0;
+        border-radius: 5px;
+        outline: none;
+    }
+
+.gender-details-box {
+   
+  font-size:20px;
+    text-align: left;
+    padding-bottom: 6px;
+    color: black;
+
+    
+}
+
+
+.gender-category{
+    display:flex;
+    
+    width:25%;
+}
+
+.form-submit-btn input {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5PX;
+    background-color: #FFF;
+}
+
+.form-submit-btn :hover {
+    color: red;
+}
+
+
